@@ -2,9 +2,8 @@
 using System.Windows.Forms;
 using System.Drawing;
 namespace Homework1
-
 {
-    partial class program2:Form
+    partial class program2 : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -23,8 +22,8 @@ namespace Homework1
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
+
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -41,10 +40,10 @@ namespace Homework1
             this.ClientSize = new System.Drawing.Size(689, 434);
             this.Name = "program2";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.program2_Load);
             this.ResumeLayout(false);
 
         }
-
         #endregion
         TextBox txt1 = new TextBox();
         TextBox txt2 = new TextBox();
@@ -64,12 +63,12 @@ namespace Homework1
             lbl.Text = "用于显示结果的标签";
             btn.Click += new System.EventHandler(this.buttonl_Clink);
         }
-        public void buttonl_Clink(object sender,EventArgs e)
+        public void buttonl_Clink(object sender, EventArgs e)
         {
             string s = txt1.Text;
             int a = Int32.Parse(s);
             s = txt2.Text;
-            int b =Int32.Parse(s);
+            int b = Int32.Parse(s);
             int result = a * b;
             lbl.Text = "两数乘积为：" + result;
         }

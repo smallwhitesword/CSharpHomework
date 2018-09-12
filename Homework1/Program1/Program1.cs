@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Homework1
 {
-    class program1
+    class Program1
     {
-        static void AppLine(string[] args)
+        static void Main()
         {
             string s = "";
             int a = 0;
@@ -22,7 +23,6 @@ namespace Homework1
             b = Int32.Parse(s);
             result = a * b;
             Console.Write("两个数的积为：" + result);
-
         }
     }
 }

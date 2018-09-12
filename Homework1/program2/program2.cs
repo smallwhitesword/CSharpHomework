@@ -16,5 +16,10 @@ namespace Homework1
         {
             InitializeComponent();
         }
+
+        private void program2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

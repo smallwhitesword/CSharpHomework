@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26349C12-F674-497F-AC43-6C88BE687796}</ProjectGuid>
+    <ProjectGuid>{DD4E5EE8-145F-46B5-BC98-D162B32CA0BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homework1</RootNamespace>
-    <AssemblyName>Homework1</AssemblyName>
+    <RootNamespace>Program21</RootNamespace>
+    <AssemblyName>Program21</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,8 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,21 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program1.cs" />
-    <Compile Include="program2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="program2.Designer.cs">
-      <DependentUpon>program2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="program2.resx">
-      <DependentUpon>program2.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
