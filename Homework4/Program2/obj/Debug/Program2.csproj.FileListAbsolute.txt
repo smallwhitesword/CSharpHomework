@@ -1,0 +1,6 @@
+D:\DELL\CSharp\Homework4\Program2\bin\Debug\Program2.exe.config
+D:\DELL\CSharp\Homework4\Program2\bin\Debug\Program2.exe
+D:\DELL\CSharp\Homework4\Program2\bin\Debug\Program2.pdb
+D:\DELL\CSharp\Homework4\Program2\obj\Debug\Program2.csproj.CoreCompileInputs.cache
+D:\DELL\CSharp\Homework4\Program2\obj\Debug\Program2.exe
+D:\DELL\CSharp\Homework4\Program2\obj\Debug\Program2.pdb
